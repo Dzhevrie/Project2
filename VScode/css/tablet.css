@@ -1,0 +1,102 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+
+@media all and (max-width: 992px){
+    body {
+        width: 100%;
+        height: 100vh;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+    
+
+    .nav{
+    width: 50%;
+    display: block;
+    flex-direction: column;
+    margin: 30px auto;
+    
+    }
+
+    main{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    .accomm{
+        width: 63%;
+        min-width: 100px;
+        height: 700px;
+        background-color: #F2F2F2;
+        border-radius: 25px;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        
+    }
+
+    .popular{
+        width: 33%;
+        min-width: 140px;
+        background-color: #F2F2F2;
+        border-radius: 25px;
+        padding: 10px;
+    }
+
+    .popular-cards-wrap{
+        width: 100%;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 30px;
+    }
+    
+
+    .activities{
+        width: 96%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }  
+
+    .footer-container{
+        width: 100%;
+        height: 170px;
+        background-color: #F2F2F2;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 30px;
+           
+    }
+}
