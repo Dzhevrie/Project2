@@ -39,11 +39,6 @@ nav{
     font-weight: 700;
 }
 
-.nav-links::after {
-    text-decoration: overline;
-    color: #0065FC;
-}
-
 nav a img{
      width: 100px;
  }
@@ -54,6 +49,12 @@ nav a img{
     color: black;
     
 }
+
+.nav-links a:hover {
+    color: #0065FC;
+    text-decoration: overline;
+    padding: 20px;
+  }
 
 
 .page-info{
@@ -219,7 +220,7 @@ main{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding: 20px 40px 0px 10px;
+    padding: 20px;
     flex-wrap: wrap;
 
     
@@ -344,7 +345,8 @@ main{
     border-radius: 25px;
     padding: 10px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .pop-title{
@@ -356,55 +358,61 @@ main{
 }
 
 .popular-cards-wrap{
-    width: 100%;
-    height: 140px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-}
-
-.popular-cards-wrap a{
-    text-decoration: none ;
-    color: black;
+    width: 400px;
+    height: 150px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    margin: 0 0 0 25px;
 }
 
 .pop-cards{
-    width: 400px;
-    border-radius: 25px;
-    background-color: white;
+    width: 100%;
+    text-decoration: none ;
+    color: #000;
+    height: 150px;
     display: flex;
-    flex-wrap: wrap;
-    justify-self: center;
-    
-       
 }
 
 .pop-cards img{
-    width: 170px;
+    width: 150px;
     height: 150px;
     border-radius: 25px 0px 0px 25px;
     padding: 5px;
 }
 
-.pop-cards-info h4{
-    width: 200px;
-    color: black;
-    
+.pop-cards-info{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.pop-cards-info h4{
+    width: 90%;
+    color: black;
+    font-weight: 800;
+}
+
+.pop-stars{
+    width: 100%;
+    font-size: small;
+}
+
 /* section Activities*/
 
 .activities {
-    width: 96%;
-    height: 700px;
+    width: 100%;
+    height: 600px;
     display: flex;
+    flex-direction:row;
+    justify-content: space-around;
     flex-wrap: wrap;
-    
+    position: relative;
+    padding: 10px;
+  
 }
 
-.activities span{
+.activities-title{
     width: 100%;
     font-size: 25px;
     font-weight: 800;
@@ -503,7 +511,6 @@ main{
     display: flex;
     justify-content:start;
     flex-direction: column;
-    padding: 10px;
     
 }
 
@@ -589,7 +596,6 @@ main{
     display: flex;
     justify-content:start;
     flex-direction: column;
-    padding: 10px;
 }
 
 

@@ -14,49 +14,16 @@ html {
     -moz-box-sizing: inherit;
     box-sizing: inherit;
     }
+
 @media all and (max-width: 768px) {
-    
-
-    body {
-        width: 768px;
-        height: auto;
-        font-family: 'Raleway', sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    header{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        
-    }
-
-   nav{
+    nav{
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
-    align-items: center;
+    justify-content: center;
     }
 
     .nav img{
         width: 100px;
-        align-items: center;
-    }
-    .nav-links{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: baseline;
-    }
-
-    .page-info{
-        display: inline-block;
-        padding: 20px;
-        flex-direction: column;
-        flex-wrap: wrap;
         align-items: center;
     }
 
@@ -72,89 +39,52 @@ html {
 
     .info{
         width: 100%;
-        display: flex;
-        align-items: baseline;
-        flex-direction: row;
-        flex-wrap: wrap;
-       
     }
     
 
 /*main section*/
 
     main{
-        outline: 1px solid yellow;
         width: 100%;
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-around;
-        padding: 0px;
-        
     }
 
-    .sections-wrap{
-        outline: 1px solid red;
-        width: 100%;
-        height: auto;
-        display: flex;
+
+    .sections-wrap {
         flex-direction: column-reverse;
-        flex-wrap: wrap;
-        margin: 30px auto;
-        padding: 0px 20px;
-        
     }
+
     /* most popular section*/
-    .popular {
+    
+    .popular{
         width: 100%;
+        height: 700px;
         background-color: #F2F2F2;
-        display: flex;
-        /* flex-direction: column; */
-        flex-wrap: wrap;
-        padding: 10px;
     }
 
     .popular-cards-wrap{
-        width: 800px;
-        height: 140px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-        
+        width: 95%;
+        height: 150px;
+        margin: 0 0 0 8px;
     }
 
-    .pop-cards{
-        width: 400px;
-        border-radius: 25px;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-self: start;
+    .pop-cards img{
+        padding: 5px 0 5px 0;
         
-           
     }
-
     /*Section Accommodation*/
 
-.accomm{
-    width: 100%;
-    height: auto;
-    background-color: #F2F2F2;
-    border-radius: 25px;
-    display: flex;
-    justify-content: space-around;
-    align-items:flex-start;
-    flex-direction:column;
-    flex-wrap: wrap;
-}
+    .accomm{
+        width: 100%;
+        height: auto;
+        background-color: #FFFFFF;
+        
+    }
 
-
-
-   
-    
+    .accomm-cards-wrap{
+        width: 250px;
+        height: 220px;
+        box-shadow: 1px 1px 1px 1px;
+    }
 
     .activities{
         width: 96%;

@@ -39,11 +39,6 @@ nav{
     font-weight: 700;
 }
 
-.nav-links::after {
-    text-decoration: overline;
-    color: #0065FC;
-}
-
 nav a img{
      width: 100px;
  }
@@ -54,6 +49,12 @@ nav a img{
     color: black;
     
 }
+
+.nav-links a:hover {
+    color: #0065FC;
+    text-decoration: overline;
+    padding: 20px;
+  }
 
 
 .page-info{
@@ -219,7 +220,7 @@ main{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding: 20px 40px 0px 10px;
+    padding: 20px;
     flex-wrap: wrap;
 
     
@@ -355,6 +356,8 @@ main{
     font-size: 25px;
 }
 
+
+
 .popular-cards-wrap{
     width: 100%;
     height: 140px;
@@ -400,7 +403,7 @@ main{
     width: 96%;
     height: 700px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     
 }
 
@@ -408,7 +411,7 @@ main{
     width: 100%;
     font-size: 25px;
     font-weight: 800;
-    padding: 50px 0 0 20px;
+    padding: 20px;
     
     
 }
