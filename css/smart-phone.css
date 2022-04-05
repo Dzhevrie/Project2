@@ -59,6 +59,7 @@ html {
         width: 100%;
         height: 700px;
         background-color: #F2F2F2;
+        border-radius: unset;
     }
 
     .popular-cards-wrap{
@@ -80,22 +81,84 @@ html {
         
     }
 
-    .accomm-cards-wrap{
-        width: 250px;
-        height: 220px;
-        box-shadow: 1px 1px 1px 1px;
+    .accomm-title {
+        width: 100%;
+        font-size: 32px;
+        font-weight: 700;
+        /* align-items: center; */
+        padding: 50px 10px 20px 50px;
     }
 
+    .accomm-cards-wrap{
+        width: 100%;
+        height: 250px;
+        box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
+        margin: 20px auto;
+    }
+
+    .accomm-cards-wrap a{
+        width: 100%;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }        
+
+    .accomm-cards-wrap img{
+        width: 100%;
+        height: 150px;
+        border: 1px ;
+        border-radius: 25px 25px 0px 0px;
+        padding: 0px 5px;
+    }
+
+    /* Section Activities*/
+
     .activities{
-        width: 96%;
+        width: 100%%;
         height: auto;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
     } 
 
+    .activities-title{
+        width: 100%;
+        font-size: 30px;
+        font-weight: 800;
+        padding: 50px 0 20px 20px;
+    }
 
+    .activities-cards{
+        width: 100%;
+        height: 250px;
+        box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
+        margin: 20px auto;
+    }
+
+    .activities-cards a{
+        width: 100%;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     
+    }
+    
+    .activities-cards img{
+        width: 100%;
+        height: 150px;
+        border: 1px ;
+        border-radius: 25px 25px 0px 0px;
+        padding: 0px 5px;
+    
+    }
+
+    .act-cards-wrap-1{
+        border: none;
+        
+    }
+    
+
     .footer-container{
         width: 100%;
         height: auto;

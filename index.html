@@ -84,7 +84,12 @@
                         <!--Accommodations first card-->
                         <div class="accomm-cards-wrap">
                             <a href="#">
-                                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="hotel_picture">
+                                <img srcset="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg 750w,
+                                             images\hebergements\3_medium\marcus-loke-WQJvWU_HZFo-unsplash.jpg 1499w,
+                                             images\hebergements\3_medium\marcus-loke-WQJvWU_HZFo-unsplash.jpg 2997w,
+                                             images\hebergements\2_large\marcus-loke-WQJvWU_HZFo-unsplash.jpg 5993w"
+                                    sizes="(max-width: 768px) 750px, 1499px, 2997px, 5993px"
+                                    src="images\hebergements\2_large\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="hotel_picture">
                                     <div class="accomm-cards-info">
                                         <h4>Auberge la Cannenbière</h4>
                                             <p>Night starting at <strong>25€</strong></p>
@@ -263,72 +268,83 @@
             <h2 class="activities-title">Activities in Marseille</h2>
                 <!--Activities cards-->
                 <!--First card of activities section-->
-                <div class="activities-cards-1">
-                    <a href="#">
-                        <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="places_picture">
-                        <h4>Old Port</h4>
-                    </a>
+                <div class="activities-cards">
+                    <div class="activities-cards-1">
+                        <a href="#">
+                            <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="places_picture">
+                            <h4>Old Port</h4>
+                        </a>
+                    </div>
                 </div>
                 
                 <!--Second card of activities section-->
                 <div class="act-cards-wrap-1">
-                    <div class="activities-cards-2">
-                        <a href="#">
-                            <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="places_picture">
-                            <h4>Pomègues Fort</h4>
-                        </a>
+                    <div class="activities-cards">
+                        <div class="activities-cards-2">
+                            <a href="#">
+                                <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="places_picture">
+                                <h4>Pomègues Fort</h4>
+                            </a>
+                        </div>
                     </div>
-
                     <!--Thirth card of activities section-->
-                    <div class="activities-cards-3">
-                        <a href="#">
-                            <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="places_picture">
-                            <h4>Frioul Island</h4>
-                        </a>
+                    <div class="activities-cards">
+                        <div class="activities-cards-3">
+                            <a href="#">
+                                <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="places_picture">
+                                <h4>Frioul Island</h4>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 
                 <!--Forth card of activities section-->
-                <div class="activities-cards-4">
-                    <a href="#">
-                        <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="places_picture">
-                            <h4>Calanques National Park</h4>
-                    </a>
+                <div class="activities-cards">
+                    <div class="activities-cards-4">
+                        <a href="#">
+                            <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="places_picture">
+                                <h4>Calanques National Park</h4>
+                        </a>
+                    </div>
                 </div>
 
                 <!--Fifth card of activities section-->.
                 <div class="act-cards-wrap-2">
-                    <div class="activities-cards-5">
-                        <a href="#">
-                            <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="places_picture">
-                            <h4>Notre-Dame-de-la-Garde</h4>
-                        </a>
+                    <div class="activities-cards">
+                        <div class="activities-cards-5">
+                            <a href="#">
+                                <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="places_picture">
+                                <h4>Notre-Dame-de-la-Garde</h4>
+                            </a>
+                        </div>
                     </div>
 
                     <!--Sixth card of activities section-->
-                    <div class="activities-cards-6">
-                        <a href="#">
-                            <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="places_picture">
-                            <h4>Longchamp Park</h4>
-                        </a>
-                    </div> 
+                    <div class="activities-cards">
+                        <div class="activities-cards-6">
+                            <a href="#">
+                                <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="places_picture">
+                                <h4>Longchamp Park</h4>
+                            </a>
+                        </div> 
+                    </div>
                 </div>
         </section>
     </main>
     <footer>
         <section class="footer-container">
-            <div class="footer-heading footer-1">
+            <div class="footer-heading">
                     <h5>About</h5>
                         <a href="">Site map</a>   
                         <a href="">General terms and Conditions</a>
                         <a href="">Data and Privacy</a>
                 </div>
-                <div class="footer-heading footer-2">
+                <div class="footer-heading">
                     <h5>Our Accommodations</h5 >
                         <a href="">Quality Assessment</a>
                         <a href="">You have a hotel?</a>
                 </div>
-                <div class="footer-heading footer-3">       
+                <div class="footer-heading">       
                     <h5>Assistance</h5>
                         <a href="">Help Desc</a>
                         <a href="">Contact Us</a>
