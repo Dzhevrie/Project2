@@ -14,7 +14,7 @@ html, body {
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
-    } */
+    } 
 
 
 header{
@@ -45,16 +45,17 @@ nav a img{
  }
 
 .nav-links a{
+    font-size: 20px;
+    font-weight: 600;
     padding: 20px;
     text-decoration: none;
     color: black;
-    
 }
 
 .nav-links a:hover {
     color: #0065FC;
-    ;
-    /*text-decoration: overline;*/
+    border-top: 3px solid;
+    line-height: 50px;
     padding: 20px;
   }
 
@@ -76,19 +77,20 @@ nav a img{
     margin: 10px 0 10px 0;
 }
 
-#searchBox{
+.search-btn-wrap {
+   /* outline: 1px solid red;*/
     border: 1px solid #F2F2F2;
+    width: 450px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    border-radius: 18px;
+    /* margin: 20px; */
 }
 
-
-.search-btn-wrap{
-    border: 1px solid #F2F2F2;
-    width: 260px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    border-radius: 15px;
-    margin: 0px 0px 0px 20px;
+.input{
+    width: 100%;
+    border:none ;
 }
 
 .fa-map-marker-alt{
@@ -144,23 +146,28 @@ nav a img{
 }
 
 .filters-btn-wrap{
+    display: inline-flex;
     padding: 10px;
     align-items: center;
     
 }
 
 
-.bttn{
-    width: 220px;
+.bttn {
+    width: 210px;
     height: 50px;
     border: 3px solid #F2F2F2;
+    border-left: 1px;
     border-radius: 30px;
-    padding: 0px 0px 55px 0px;
     background-color: white;
     margin: 10px;
     transition: transform 0.3s;
-    font-weight: 800;
     font-size: large;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: inherit;
 }
 
 .bttn::after, .bttn::before{
@@ -189,15 +196,17 @@ nav a img{
     transform: translate(12px, 12px)
 }
     
-.bttn i{
-        width: 60px;
-        height: 60px;
-        color: #0065FC;
-        background-color: #DEEBFF;
-        border-radius: 50%;
-        padding: 23px 0 0 0;
-        margin: 0px 10px 0px 0px;
-    }
+.bttn i {
+    width: 50px;
+    height: 50px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    margin: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .bttn p{
     width: fit-content;
@@ -440,23 +449,12 @@ main{
 
 .activities-cards-1{
     width: 350px;
-    height: 450px;
     border: 1px solid #F2F2F2;
     border-radius: 25px;
     background-color:  white;
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
  
 }
-
-/*.activities-cards{
-    width: 350px;
-    height: 450px;
-    border: 1px solid #F2F2F2;
-    border-radius: 25px;
-    background-color:  white;
-    box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
- 
-}*/
 
 .activities-cards a{
     text-decoration: none;
@@ -478,7 +476,6 @@ main{
 
 .activities-cards-2{
     width: 300px;
-    height: 220px;
     border-radius: 25px;
     background-color: white;
     border: 1px solid #F2F2F2;
@@ -502,15 +499,10 @@ main{
     font-size: large;
     padding: 5px;
     margin: 10px;
-    
-    
 }
 
 .activities-cards-3{
     width: 300px;
-    height: 170px;
-    background-color: white;
-    border: 1px solid #F2F2F2;
     border-radius: 25px;
     margin: 25px;
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
@@ -542,9 +534,6 @@ main{
 
 .activities-cards-4{
     width: 350px;
-    height: 450px;
-    background-color: white;
-    border: 1px solid #F2F2F2;
     border-radius: 25px;
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
     
@@ -569,9 +558,6 @@ main{
 
 .activities-cards-5{
     width: 300px;
-    height: 190px;
-    background-color: white;
-    border: 1px solid #F2F2F2;
     border-radius: 25px;
     margin: 0px 20px;
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
@@ -596,9 +582,6 @@ main{
 
 .activities-cards-6{
     width: 300px;
-    height: 190px;
-    background-color: white;
-    border: 1px solid #F2F2F2;
     border-radius: 25px;
     margin: 55px 20px 0px 20px;
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
