@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-.nav{
+nav{
     display: flex;
     flex-direction: row;
     padding-top: 20px;
@@ -15,7 +15,7 @@
     font-weight: 700;
 }
 
-.nav img{
+nav img{
      width: 100px;
 }
 
