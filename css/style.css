@@ -3,46 +3,21 @@
     margin: 0;
 }
 
-html, body {
-    padding: 15px;
-    width: 100%;
-    height: 100%;
-    font-family: 'Raleway', sans-serif;
-}
-
-  *, *:before, *:after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-    } 
-
-
-header{
-    min-height: 100px;
-    width: 100%;
-}
-
-nav{
-    width: 100%;
+.nav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 0px 0px 20px;
-    
+    flex-direction: row;
+    padding-top: 20px;
 }
 
 .nav-links{
     flex: 1;
     text-align: right;
-    position: relative;
-    align-items:flex-end;
-    padding: 15px;
     font-weight: 700;
 }
 
-nav a img{
+.nav img{
      width: 100px;
- }
+}
 
 .nav-links a{
     font-size: 20px;
@@ -63,7 +38,6 @@ nav a img{
 .page-info{
     display: inline-block;
     padding: 20px;
-    
 }
 
 .page-info h1{
@@ -78,14 +52,12 @@ nav a img{
 }
 
 .search-btn-wrap {
-   /* outline: 1px solid red;*/
     border: 1px solid #F2F2F2;
     width: 450px;
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-between;
     border-radius: 18px;
-    /* margin: 20px; */
+    margin-left: 20px;
 }
 
 .input{
@@ -237,6 +209,7 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 
 .sections-wrap{
@@ -317,7 +290,7 @@ main{
     
 }
 
-.accomm-cards-info h4{
+.accomm-cards-info h3{
     font-size: 18px;
     margin: 5px;
     text-decoration: none;
@@ -424,23 +397,18 @@ main{
 
 .activities {
     width: 100%;
-    height: 600px;
     display: flex;
-    flex-direction:row;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
-    position: relative;
-    padding: 10px;
-  
+    padding-bottom: 60px;
 }
 
 .activities-title{
     width: 100%;
     font-size: 25px;
     font-weight: 800;
-    padding: 50px 0 0 20px;
-    
-    
+    padding: 50px 0 20px 0;
 }
 
 .activities-cards a{
@@ -466,7 +434,7 @@ main{
     border-radius: 25px 25px 0px 0px;
 }
 
-.activities-cards-1 h4{
+.activities-cards-1 h3{
     color: black;
     font-size: large;
     padding: 5px;
@@ -479,7 +447,7 @@ main{
     border-radius: 25px;
     background-color: white;
     border: 1px solid #F2F2F2;
-    margin: 0px 25px 25px 25px;
+    /*margin: 0px 25px 25px 25px;*/
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
 }
 
@@ -489,12 +457,12 @@ main{
 
 .activities-cards-2 img{
     width: 300px;
-    height: 160px;
+    height: 170px;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
 }
 
-.activities-cards-2 h4{
+.activities-cards-2 h3{
     color: black;
     font-size: large;
     padding: 5px;
@@ -504,7 +472,7 @@ main{
 .activities-cards-3{
     width: 300px;
     border-radius: 25px;
-    margin: 25px;
+    /*margin: 25px;*/
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
 }
 
@@ -514,11 +482,11 @@ main{
 
 .activities-cards-3 img{
     width: 300px;
-    height: 110px;
+    height: 120px;
     border-radius: 25px 25px 0px 0px;
 }
 
-.activities-cards-3 h4{
+.activities-cards-3 h3{
     color: black;
     font-size: large;
     padding: 5px;
@@ -527,16 +495,17 @@ main{
 
 .act-cards-wrap-1{
     display: flex;
-    justify-content:start;
+    justify-content:space-between;
     flex-direction: column;
     
 }
 
 .activities-cards-4{
     width: 350px;
+    border: 1px solid #F2F2F2;
     border-radius: 25px;
+    background-color:  white;
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
-    
 }
 
 .activities-cards-4 a{
@@ -549,7 +518,7 @@ main{
     border-radius: 25px 25px 0px 0px;
 }
 
-.activities-cards-4 h4{
+.activities-cards-4 h3{
     color: black;
     font-size: large;
     padding: 5px;
@@ -559,7 +528,7 @@ main{
 .activities-cards-5{
     width: 300px;
     border-radius: 25px;
-    margin: 0px 20px;
+    /*margin: 0px 20px;*/
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
 }
 
@@ -569,11 +538,11 @@ main{
 
 .activities-cards-5 img{
     width: 300px;
-    height: 130px;
+    height: 150px;
     border-radius: 25px 25px 0px 0px;
 }
 
-.activities-cards-5 h4{
+.activities-cards-5 h3{
     color: black;
     font-size: large;
     padding: 5px;
@@ -583,7 +552,7 @@ main{
 .activities-cards-6{
     width: 300px;
     border-radius: 25px;
-    margin: 55px 20px 0px 20px;
+   /* margin: 55px 20px 0px 20px;*/
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
 }
 
@@ -593,11 +562,11 @@ main{
 
 .activities-cards-6 img{
     width: 300px;
-    height: 130px;
+    height: 150px;
     border-radius: 25px 25px 0px 0px;;
 }
 
-.activities-cards-6 h4{
+.activities-cards-6 h3{
     color: black;
     font-size: large;
     padding: 5px;
@@ -606,7 +575,7 @@ main{
 
 .act-cards-wrap-2{
     display: flex;
-    justify-content:start;
+    justify-content:space-between;
     flex-direction: column;
 }
 
@@ -623,7 +592,7 @@ main{
 }
 
 
-.footer-heading h5{
+.footer-heading h4{
     width: fit-content;
     font-size: 20px;
     color: black;
