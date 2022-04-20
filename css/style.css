@@ -3,9 +3,10 @@
     margin: 0;
 }
 
+/*Navigation section*/
 nav{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-top: 20px;
 }
 
@@ -34,7 +35,7 @@ nav img{
     padding: 20px;
   }
 
-
+/*Page info*/
 .page-info{
     display: inline-block;
     padding: 20px;
@@ -62,19 +63,18 @@ nav img{
 
 .input{
     width: 100%;
-    border:none ;
+    border: none;
 }
 
 .fa-map-marker-alt{
     width: 50px;
     height: 50px;
-    padding: 18px 25px 0px 18px;
-    margin: 0px;
-    border-radius: 15px 0px 0px 15px;
+    padding: 18px 25px 0 18px;
+    margin: 0;
+    border-radius: 15px 0 0 15px;
     background-color: #F2F2F2;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .search-btn-wrap button{
@@ -83,7 +83,7 @@ nav img{
     width: 80px;
     align-items: center;
     border: none;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0 15px 15px 0;
     color: #fff;
     font-size: medium;
     padding: 10px;
@@ -101,15 +101,13 @@ nav img{
     padding: 10px;
 }
 
-/*Filters section*/
-
+/* Section Filter */
 .filter-buttons{
     width: 100%; 
     display: flex;
     padding: 20px;
     align-items: baseline;
     flex-direction: row;
-    
 }
 
 .filter-title{
@@ -121,9 +119,7 @@ nav img{
     display: inline-flex;
     padding: 10px;
     align-items: center;
-    
 }
-
 
 .bttn {
     width: 210px;
@@ -153,7 +149,6 @@ nav img{
     bottom: 0;
     z-index: -1;
     transition: transform 0.3s ease;
-  
 }
 
 .bttn:hover{
@@ -174,7 +169,7 @@ nav img{
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
-    margin: 0px 10px 0px 0px;
+    margin: 0 10px 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,8 +178,6 @@ nav img{
 .bttn p{
     width: fit-content;
 }
-
-
 
 .info{
     width: 31%;
@@ -202,9 +195,7 @@ nav img{
     padding: 5px 10px;
 }
 
-
-/*main*/
-
+/*Main section*/
 main{
     width: 100%;
     display: flex;
@@ -217,13 +208,9 @@ main{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    
-
-    
 }
 
 /*Section Accommodation*/
-
 .accomm{
     width: 65%;
     height: 700px;
@@ -234,15 +221,13 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
     position: relative;
-    
 }
 
 .accomm-title{
     width: 100%;
     font-size: 22px;
     font-weight: 700;
-    padding: 50px 0px 0px 50px;
-    
+    padding: 50px 0 0 50px;
 }
 
 .accomm-cards-wrap{
@@ -263,9 +248,8 @@ main{
 .accomm-cards-wrap img{
     width: 250px;
     height: 130px;
-    border: 1px ;
     border-radius: 25px 25px 0px 0px;
-    padding: 0px 5px;
+    padding: 0 5px;
 }
 
 .accomm-cards-wrap a{
@@ -275,7 +259,6 @@ main{
     justify-content: flex-start;
     align-items: center;
     margin: 0 auto;
-    
 }
 
 .accomm-cards-info{
@@ -285,9 +268,6 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     padding-left: 10px;
-    
-       
-    
 }
 
 .accomm-cards-info h3{
@@ -301,7 +281,6 @@ main{
     font-size: small;
     margin: 5px;
 }
-
 
 .blue-star{
     color: #0065FC;
@@ -332,8 +311,7 @@ main{
     color: #000;
 }
 
-/* Section most popula*/
-
+/* Section Most popular*/
 .popular{
     width: 32%;
     height: 700px;
@@ -349,15 +327,14 @@ main{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px 0px 30px;
+    padding: 10px 20px 0 30px;
     font-size: 25px;
 }
 
-.popular-cards-wrap{
-    height: 150px;
+.popular-cards-wrap {
+    margin: 0 30px;
     background-color: #FFFFFF;
     border-radius: 25px;
-    margin: 30px;
 }
 
 .pop-cards{
@@ -371,7 +348,7 @@ main{
 .pop-cards img{
     width: 150px;
     height: 150px;
-    border-radius: 25px 0px 0px 25px;
+    border-radius: 25px 0 0 25px;
     padding: 5px;
 }
 
@@ -394,193 +371,73 @@ main{
 }
 
 /* section Activities*/
-
-.activities {
+.activities{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 60px;
 }
 
 .activities-title{
     width: 100%;
     font-size: 25px;
     font-weight: 800;
-    padding: 50px 0 20px 0;
+    padding: 50px 0 10px 10px;
 }
 
-.activities-cards a{
-    text-decoration: none;
+.act-cards-wrap{
+    padding: 16px;
 }
 
-.activities-cards-1{
-    width: 350px;
-    border: 1px solid #F2F2F2;
+.activities-cards{
+    width: 330px;
     border-radius: 25px;
-    background-color:  white;
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
- 
+    margin-bottom: 40px;
 }
 
-.activities-cards a{
-    text-decoration: none;
+.activities-cards img{
+    width: 330px;
+    border-radius: 25px 25px 0 0;
 }
 
-.activities-cards-1 img{
-    width: 350px;
+.card-1 img{
     height: 390px;
-    border-radius: 25px 25px 0px 0px;
 }
 
-.activities-cards-1 h3{
-    color: black;
-    font-size: large;
-    padding: 5px;
-    margin: 10px;
-  
-}
-
-.activities-cards-2{
-    width: 300px;
-    border-radius: 25px;
-    background-color: white;
-    border: 1px solid #F2F2F2;
-    /*margin: 0px 25px 25px 25px;*/
-    box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
-}
-
-.activities-cards-2 a{
-    text-decoration: none;
-}
-
-.activities-cards-2 img{
-    width: 300px;
+.card-2 img{
     height: 170px;
-    object-fit: cover;
-    border-radius: 25px 25px 0px 0px;
 }
 
-.activities-cards-2 h3{
-    color: black;
-    font-size: large;
-    padding: 5px;
-    margin: 10px;
-}
-
-.activities-cards-3{
-    width: 300px;
-    border-radius: 25px;
-    /*margin: 25px;*/
-    box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
-}
-
-.activities-cards-3 a{
-    text-decoration: none;
-}
-
-.activities-cards-3 img{
-    width: 300px;
+.card-3 img{
     height: 120px;
-    border-radius: 25px 25px 0px 0px;
 }
-
-.activities-cards-3 h3{
-    color: black;
-    font-size: large;
-    padding: 5px;
-    margin: 10PX;
-}
-
-.act-cards-wrap-1{
-    display: flex;
-    justify-content:space-between;
-    flex-direction: column;
-    
-}
-
-.activities-cards-4{
-    width: 350px;
-    border: 1px solid #F2F2F2;
-    border-radius: 25px;
-    background-color:  white;
-    box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
-}
-
-.activities-cards-4 a{
-    text-decoration: none ;
-}
-
-.activities-cards-4 img{
-    width: 350px;
+ 
+.card-4 img{
     height: 390px;
-    border-radius: 25px 25px 0px 0px;
 }
 
-.activities-cards-4 h3{
-    color: black;
-    font-size: large;
-    padding: 5px;
-    margin: 10PX;
+.card-5 img{
+    height: 140px;
 }
 
-.activities-cards-5{
-    width: 300px;
-    border-radius: 25px;
-    /*margin: 0px 20px;*/
-    box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
+.card-6 img{
+    height: 140px;
 }
 
-.activities-cards-5 a{
+.activities-cards a{
     text-decoration: none;
 }
 
-.activities-cards-5 img{
-    width: 300px;
-    height: 150px;
-    border-radius: 25px 25px 0px 0px;
-}
-
-.activities-cards-5 h3{
-    color: black;
+.activities-cards h3{
+    color: #000;
     font-size: large;
-    padding: 5px;
-    margin: 10PX;
+    font-weight: 800;
+    padding: 20px;
 }
 
-.activities-cards-6{
-    width: 300px;
-    border-radius: 25px;
-   /* margin: 55px 20px 0px 20px;*/
-    box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
-}
-
-.activities-cards-6 a{
-    text-decoration: none;
-}
-
-.activities-cards-6 img{
-    width: 300px;
-    height: 150px;
-    border-radius: 25px 25px 0px 0px;;
-}
-
-.activities-cards-6 h3{
-    color: black;
-    font-size: large;
-    padding: 5px;
-    margin: 10PX;
-}
-
-.act-cards-wrap-2{
-    display: flex;
-    justify-content:space-between;
-    flex-direction: column;
-}
-
-/*Footer section*/
-
+/*Section Footer */
 .footer-container{
     background-color: #F2F2F2;
     color: black;
@@ -590,7 +447,6 @@ main{
 .footer-heading{
     padding: 50px 250px 50px 50px;
 }
-
 
 .footer-heading h4{
     width: fit-content;
@@ -609,6 +465,5 @@ main{
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
-    
 }
 
