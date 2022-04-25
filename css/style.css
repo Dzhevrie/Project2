@@ -6,8 +6,8 @@
 /*Navigation section*/
 nav{
     display: flex;
-    flex-direction: column;
-    padding-top: 20px;
+    flex-direction: row;
+    padding: 20px 30px 10px 0;
 }
 
 .nav-links{
@@ -35,82 +35,87 @@ nav img{
     padding: 20px;
   }
 
+  .nav-sections{
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+  }
+
 /*Page info*/
-.page-info{
-    display: inline-block;
-    padding: 20px;
-}
+
 
 .page-info h1{
+    font-family: 'Raleway';
     font-size: 25px;
+    font-weight: 800;
 }
 
 .page-info p{
     font-family: 'Raleway';
     font-size: medium;
     font-weight: 500;
-    margin: 10px 0 10px 0;
+    padding: 10px 0;
 }
 
+/* Search form*/
 .search-btn-wrap {
-    border: 1px solid #F2F2F2;
-    width: 450px;
+    border: 2px solid #F2F2F2;
+    width: 400px;
     display: flex;
     justify-content: space-between;
     border-radius: 18px;
-    margin-left: 20px;
+    border-left: none;
+    border-right: none ;
 }
-
-.input{
-    width: 100%;
-    border: none;
+ 
+input{
+     border:none ;
+     width: inherit;
 }
-
+ 
 .fa-map-marker-alt{
-    width: 50px;
-    height: 50px;
-    padding: 18px 25px 0 18px;
-    margin: 0;
-    border-radius: 15px 0 0 15px;
+    font-size: 20px;
+    width: px;
+    height: 35px;
+    padding: 15px 25px 0 25px;
+    border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
-    justify-content: space-around;
-    align-items: center;
 }
-
-.search-btn-wrap button{
-    display: flex;
-    background-color: #0065FC;
-    width: 80px;
-    align-items: center;
-    border: none;
-    border-radius: 0 15px 15px 0;
-    color: #fff;
-    font-size: medium;
-    padding: 10px;
-    cursor: pointer;
-}
-
+ 
+ .search-btn-wrap button{
+        display: flex; 
+        background-color: #0065FC;
+        width: 80px;
+        align-items: center;
+        width: auto;
+        border: none;
+        border-radius: 0px 15px 15px 0px;
+        color: #fff;
+        font-size: 20px;
+        padding: 13px;
+ }
+ 
+ .search-btn-wrap button:hover {
+     background-color: #F2F2F2;
+     color: #000;
+ }
+ 
+ .search-btn-wrap span{
+     display: flex;
+     align-content: center;
+     padding: 10px;
+ }
+ 
 .search-btn-wrap button:hover {
     background-color: #F2F2F2;
     color: #000;
 }
 
-.search-btn-wrap span{
-    display: flex;
-    align-content: center;
-    padding: 10px;
-}
-
 /* Section Filter */
-.filter-buttons{
-    width: 100%; 
-    display: flex;
-    padding: 20px;
-    align-items: baseline;
-    flex-direction: row;
-}
+
 
 .filter-title{
+    font-family: 'Raleway';
     font-size: 20px;
     font-weight: 700;
 }
@@ -122,7 +127,7 @@ nav img{
 }
 
 .bttn {
-    width: 210px;
+    width: 220px;
     height: 50px;
     border: 3px solid #F2F2F2;
     border-left: 1px;
@@ -130,11 +135,10 @@ nav img{
     background-color: white;
     margin: 10px;
     transition: transform 0.3s;
-    font-size: large;
+    font-size: 20px;
+    font-family: 'Raleway';
     font-weight: 700;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     align-items: inherit;
 }
 
@@ -181,9 +185,10 @@ nav img{
 
 .info{
     width: 31%;
-    display: flex;
+    display: inline-flex;
     align-items: baseline;
-    padding: 20px 0;
+    font-size: 17px;
+    font-family: 'Raleway';
     font-weight: 600;
 }
 
@@ -198,16 +203,13 @@ nav img{
 /*Main section*/
 main{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
 }
 
 .sections-wrap{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
 }
 
 /*Section Accommodation*/
@@ -248,7 +250,7 @@ main{
 .accomm-cards-wrap img{
     width: 250px;
     height: 130px;
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     padding: 0 5px;
 }
 
@@ -297,7 +299,7 @@ main{
 }
 
 .show-more{
-    width: 100%;
+    width: auto;
     font-size: 20px;
     padding: 30px;
     display: flex;
@@ -317,14 +319,12 @@ main{
     height: 700px;
     background-color: #F2F2F2;
     border-radius: 25px;
-    padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .pop-title{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px 20px 0 30px;
@@ -332,42 +332,49 @@ main{
 }
 
 .popular-cards-wrap {
-    margin: 0 30px;
+    margin: 0 30px 0 30px;
     background-color: #FFFFFF;
     border-radius: 25px;
 }
 
 .pop-cards{
-    width: 100%;
     text-decoration: none ;
     color: #000;
-    height: 150px;
     display: flex;
 }
 
 .pop-cards img{
     width: 150px;
     height: 150px;
-    border-radius: 25px 0 0 25px;
-    padding: 5px;
+    border-radius: 20px 0 0 20px;
+    margin: 6px 5px 3px 6px;
+
 }
 
 .pop-cards-info{
-    margin: 10px;
+    margin:10px 10px 15px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .pop-cards-info h4{
-    width: 90%;
+    width: 100%;
     color: black;
     font-weight: 800;
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+
+.pop-cards-info p{
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .pop-stars{
     width: 100%;
-    font-size: small;
+    font-size: 15px;
 }
 
 /* section Activities*/
@@ -380,7 +387,7 @@ main{
 }
 
 .activities-title{
-    width: 100%;
+    width: inherit;
     font-size: 25px;
     font-weight: 800;
     padding: 50px 0 10px 10px;
@@ -438,32 +445,39 @@ main{
 }
 
 /*Section Footer */
+
+footer{
+    width: 100%;
+    height: auto;
+}
+
 .footer-container{
     background-color: #F2F2F2;
     color: black;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
       
 .footer-heading{
-    padding: 50px 250px 50px 50px;
+    margin: 40px 220px 40px 30px;
 }
 
 .footer-heading h4{
-    width: fit-content;
     font-size: 20px;
+    font-family: 'Raleway';
     color: black;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 15px;
 }
 
 .footer-heading a{
-    width: fit-content;
     color: black;
-    font-size: medium;
+    font-size: 18px;
     font-weight: 500;
+    font-family: 'Raleway';
     text-decoration: none;
     margin-bottom: 15px;
     display: flex;
-    flex-direction: column;
 }
 
