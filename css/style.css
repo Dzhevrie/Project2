@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Raleway';
 }
 
 /*Navigation section*/
@@ -45,13 +46,11 @@ nav img{
 
 
 .page-info h1{
-    font-family: 'Raleway';
     font-size: 25px;
     font-weight: 800;
 }
 
 .page-info p{
-    font-family: 'Raleway';
     font-size: medium;
     font-weight: 500;
     padding: 10px 0;
@@ -77,22 +76,23 @@ input{
     font-size: 20px;
     width: px;
     height: 35px;
-    padding: 15px 25px 0 25px;
+    padding: 15px 20px 0 20px;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
 }
  
  .search-btn-wrap button{
-        display: flex; 
-        background-color: #0065FC;
-        width: 80px;
-        align-items: center;
-        width: auto;
-        border: none;
-        border-radius: 0px 15px 15px 0px;
-        color: #fff;
-        font-size: 20px;
-        padding: 13px;
+    display: flex; 
+    background-color: #0065FC;
+    width: 80px;
+    align-items: center;
+    width: auto;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 13px;
  }
  
  .search-btn-wrap button:hover {
@@ -115,7 +115,6 @@ input{
 
 
 .filter-title{
-    font-family: 'Raleway';
     font-size: 20px;
     font-weight: 700;
 }
@@ -136,7 +135,6 @@ input{
     margin: 10px;
     transition: transform 0.3s;
     font-size: 20px;
-    font-family: 'Raleway';
     font-weight: 700;
     display: flex;
     align-items: inherit;
@@ -184,11 +182,10 @@ input{
 }
 
 .info{
-    width: 31%;
+    width: 32%;
     display: inline-flex;
     align-items: baseline;
     font-size: 17px;
-    font-family: 'Raleway';
     font-weight: 600;
 }
 
@@ -298,19 +295,17 @@ main{
     margin: 5px;
 }
 
-.show-more{
-    width: auto;
-    font-size: 20px;
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+.show-more {
+    width: 100%;
+    
+    margin: 30px;
 }
 
 .show-more a{
     font-weight: 700;
     text-decoration: none;
     color: #000;
+    font-size: 25px;
 }
 
 /* Section Most popular*/
@@ -362,12 +357,10 @@ main{
     width: 100%;
     color: black;
     font-weight: 800;
-    font-family: 'Raleway';
     font-size: 20px;
 }
 
 .pop-cards-info p{
-    font-family: 'Raleway';
     font-size: 18px;
     font-weight: 500;
 }
@@ -382,7 +375,7 @@ main{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -393,9 +386,7 @@ main{
     padding: 50px 0 10px 10px;
 }
 
-.act-cards-wrap{
-    padding: 16px;
-}
+
 
 .activities-cards{
     width: 330px;
@@ -465,7 +456,6 @@ footer{
 
 .footer-heading h4{
     font-size: 20px;
-    font-family: 'Raleway';
     color: black;
     font-weight: 800;
     margin-bottom: 15px;
@@ -475,7 +465,6 @@ footer{
     color: black;
     font-size: 18px;
     font-weight: 500;
-    font-family: 'Raleway';
     text-decoration: none;
     margin-bottom: 15px;
     display: flex;
