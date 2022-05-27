@@ -30,11 +30,11 @@
     }
 
     .nav-links a:hover {
-        color: #0065FC;
-        border-bottom: 4px solid;
+        color: #0065FC; 
+        border-bottom: 3px solid;
         border-top: none;
-        line-height: 50px;
         padding: 20px;
+        line-height: normal; */
     }
 
     .nav-sections {

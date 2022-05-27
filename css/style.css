@@ -27,12 +27,12 @@ nav img {
     padding: 20px;
     text-decoration: none;
     color: black;
+    line-height: 50px;
 }
 
 .nav-links a:hover {
     color: #0065FC;
     border-top: 3px solid;
-    line-height: 50px;
     padding: 20px;
 }
 
@@ -96,17 +96,13 @@ input {
 .search-btn-wrap button:hover {
     background-color: #F2F2F2;
     color: #000;
+    cursor: pointer;
 }
 
 .search-btn-wrap span {
     display: flex;
     align-content: center;
     padding: 10px;
-}
-
-.search-btn-wrap button:hover {
-    background-color: #F2F2F2;
-    color: #000;
 }
 
 /* Section Filter's buttons */
